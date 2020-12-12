@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "try": "./bin/try.js"
+    "try": "./bin/try.js",
+    "try-add": "./bin/try-add.js",
+    "try-delete": "./bin/try-delete.js",
+    "try-list": "./bin/try-list.js",
+    "try-init": "./bin/try-init.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,8 @@
   "homepage": "https://github.com/ronan-try/try-cli#readme",
   "dependencies": {
     "boxen": "^4.2.0",
-    "commander": "^6.2.0"
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
   }
 }
