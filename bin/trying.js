@@ -5,7 +5,7 @@ const { program } = require('commander')
 
 program
     .version('1.0.0')
-    .usage('<command> [try options]')
+    .usage('<command> [trying options]')
     .command('add', 'add a new template')
     .command('delete', 'deleate a template')
     .command('list', 'list templates')

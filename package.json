@@ -1,29 +1,28 @@
 {
-  "name": "try-cli",
+  "name": "trying-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "try": "./bin/try.js",
-    "try-add": "./bin/try-add.js",
-    "try-delete": "./bin/try-delete.js",
-    "try-list": "./bin/try-list.js",
-    "try-init": "./bin/try-init.js"
+    "trying": "./bin/trying.js",
+    "trying-add": "./bin/trying-add.js",
+    "trying-delete": "./bin/trying-delete.js",
+    "trying-list": "./bin/trying-list.js",
+    "trying-init": "./bin/trying-init.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ronan-try/try-cli.git"
+    "url": "git+https://github.com/ronan-try/trying-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ronan-try/try-cli/issues"
+    "url": "https://github.com/ronan-try/trying-cli/issues"
   },
-  "homepage": "https://github.com/ronan-try/try-cli#readme",
+  "homepage": "https://github.com/ronan-try/trying-cli#readme",
   "dependencies": {
     "boxen": "^4.2.0",
     "commander": "^6.2.0",
