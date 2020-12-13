@@ -25,6 +25,7 @@
   "homepage": "https://github.com/ronan-try/tying-cli#readme",
   "dependencies": {
     "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
     "commander": "^6.2.0",
     "inquirer": "^7.3.3",
     "ora": "^5.1.0"

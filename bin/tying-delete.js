@@ -5,6 +5,7 @@ const inquirer = require('inquirer');
 // 引入文件操作, path
 const fs = require('fs');
 const path = require('path');
+const chalk = require('chalk');
 // templates json
 const tpath = path.resolve(__dirname, '../tying-template.json');
 const tpls = require(tpath); // 数组格式
@@ -34,4 +35,5 @@ inquirer
         console.log(tpls);
 
         fs.writeFileSync(tpath, JSON.stringify(tpls));
+        console.log(chalk`删除成功`)
     });
