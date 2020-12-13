@@ -6,10 +6,10 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 // 引入路径操作
 const path = require('path')
-// trying-template.json路径
-const tpath = path.resolve(__dirname, '../trying-template.json')
+// tying-template.json路径
+const tpath = path.resolve(__dirname, '../tying-template.json')
 // 获取模板列表内容
-let tryingTlps = require(tpath) // 默认 []
+let tyingTlps = require(tpath) // 默认 []
 
 
 
@@ -35,5 +35,5 @@ inquirer
         let tplName = answers['tpl-name']
         let tplGit = answers['tpl-git']
 
-        // 更新到trying-template.json中
+        // 更新到tying-template.json中
     })

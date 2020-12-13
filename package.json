@@ -1,28 +1,28 @@
 {
-  "name": "trying-cli",
+  "name": "tying-cli",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "trying": "./bin/trying.js",
-    "trying-add": "./bin/trying-add.js",
-    "trying-delete": "./bin/trying-delete.js",
-    "trying-list": "./bin/trying-list.js",
-    "trying-init": "./bin/trying-init.js"
+    "tying": "./bin/tying.js",
+    "tying-add": "./bin/tying-add.js",
+    "tying-delete": "./bin/tying-delete.js",
+    "tying-list": "./bin/tying-list.js",
+    "tying-init": "./bin/tying-init.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ronan-try/trying-cli.git"
+    "url": "git+https://github.com/ronan-try/tying-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ronan-try/trying-cli/issues"
+    "url": "https://github.com/ronan-try/tying-cli/issues"
   },
-  "homepage": "https://github.com/ronan-try/trying-cli#readme",
+  "homepage": "https://github.com/ronan-try/tying-cli#readme",
   "dependencies": {
     "boxen": "^4.2.0",
     "commander": "^6.2.0",
