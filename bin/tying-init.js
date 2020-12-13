@@ -54,6 +54,9 @@ spinner.start();
 
 download(url, pName, err => {
     if (err) {
-        spinner.fail();
+        spinner.fail('创建目录失败');
+        return;
     }
+    // 成功
+    spinner.succeed('成功');
 })
