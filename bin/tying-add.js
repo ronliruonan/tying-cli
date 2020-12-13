@@ -18,12 +18,26 @@ let questions = [
     {
         type: 'input',
         name: 'tpl-name',
-        message: '请输入模板名称'
+        message: '请输入模板名称',
+        // 校验 必填，且不能重复
+        validate: (val) => {
+            const v = `${val}`.trim();
+            if (v === '') return '模板名称不能为空';
+            if (tyingTlps.find(i => i.name === v)) return '当前模板名称已存在';
+
+            return true;
+        }
     },
     {
         type: 'input',
         name: 'tpl-url',
-        message: '请输入 url'
+        message: '请输入 url',
+        // 校验必填
+        validate: (val) => {
+            if (val === '') return '模板路径不能为空';
+
+            return true;
+        }
     }
 ];
 
