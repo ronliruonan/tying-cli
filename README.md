@@ -1,5 +1,5 @@
 # tying-cli
-just do it
+just do it1
 
 尝试如何从0搭建一个脚手架，在不使用yeoman的情况下
 
